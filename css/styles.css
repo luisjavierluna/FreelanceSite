@@ -10,6 +10,14 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory ;
+}
+
+.servicios,
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 *, *:before, *:after{
@@ -23,7 +31,7 @@ body {
 }
 
 .titulo:before {
-    content: 'Esto va después del título';
+    
 }
 
 .titulo span {
@@ -158,10 +166,12 @@ h1, h2, h3 {
     color: var(--blanco);
 }
 
-.ubicacion {
+.contenido-hero .ubicacion {
     display: flex;
     align-items: flex-end;
 }
+
+
 
 @media (min-width: 768px) {
     .servicios {
