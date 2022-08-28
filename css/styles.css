@@ -11,16 +11,16 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y mandatory ;
+    /* scroll-snap-type: y mandatory ; Eliminada esta caracteristica ya que es un poco molesta */
 }
 
-/** Scroll Snap**/
-.servicios,
+/* * Scroll Snap* Eliminada esta caracteristica ya que es un poco molesta */
+/* .servicios,
 .navegacion-principal,
 .formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
-}
+} */
 
 *, *:before, *:after{
     box-sizing: inherit;
